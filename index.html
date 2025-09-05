@@ -208,7 +208,7 @@
                 const constraints = {
                     video: {
                         deviceId: selectedDeviceId ? { exact: selectedDeviceId } : undefined,
-                        facingMode: selectedDeviceId ? undefined : 'user', // Cámara frontal por defecto
+                        facingMode: selectedDeviceId ? undefined : 'environment', // Cámara trasera por defecto
                         width: { ideal: 1280 },
                         height: { ideal: 720 }
                     }
